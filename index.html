@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Grid & Flexbox Puzzle</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="grid-container">
+    <!-- Section 1: Header / Identification -->
+    <header class="grid-section header">
+      <h1>Student Name: Joseph Davila </h1>
+      <h2>Selected Puzzle: Butterflies</h2>
+    </header>
+
+    <!-- Section 2: Flexbox Puzzle Area -->
+    <main class="grid-section puzzle-section">
+      <h3>Assembled Puzzle</h3>
+      
+      <div class="flex-puzzle-container">
+        <!-- Puzzle pieces placed in order -->
+        <img src="images/puzzle1_A.jpg" alt="Puzzle Piece A" class="puzzle-piece">
+        <img src="images/puzzle1_B.jpg" alt="Puzzle Piece B" class="puzzle-piece">
+        <img src="images/puzzle1_C.jpg" alt="Puzzle Piece C" class="puzzle-piece">
+        <img src="images/puzzle1_D.jpg" alt="Puzzle Piece D" class="puzzle-piece">
+        <img src="images/puzzle1_E.jpg" alt="Puzzle Piece E" class="puzzle-piece">
+        <img src="images/puzzle1_F.jpg" alt="Puzzle Piece F" class="puzzle-piece">
+        
+        <!-- Faulty/Extra Piece to be hidden -->
+        <img src="images/puzzle1_Q.jpg" alt="Extra Piece" class="puzzle-piece extra-piece">
+      </div>
+    </main>
+
+    <!-- Section 3: Footer / Date -->
+    <footer class="grid-section footer">
+      <p>Completion Date: <span id="date">October 19, 2026</span></p>
+    </footer>
+  </div>
+
+</body>
+</html>
